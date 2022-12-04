@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18F513A8148E992BCEC7EE7D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F513A895DA8EA9ADF657B7 /* Preview Assets.xcassets */; };
-		18F5170062622DBF6470D54D /* PoyoCalculaterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F515DBB5A7E181E6E102CC /* PoyoCalculaterApp.swift */; };
-		18F5188E7C1A5CF129FBA662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F51EA2E0BCFF325BF319D1 /* Assets.xcassets */; };
-		18F51AB48572A4B9127E0133 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F51A80AEC75D83EB38F564 /* ContentView.swift */; };
+		18F51495D54BB0AB3015AE28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F51C01E7200E68C5505407 /* ContentView.swift */; };
+		18F519012EF7EB7E7B7DE947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F519B91FF8A16E4D887366 /* Assets.xcassets */; };
+		18F51CC14F01B0A4677D2A92 /* Calculater_made_by_nokinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F51B8EBF80CEC18BA30D34 /* Calculater_made_by_nokinApp.swift */; };
+		18F51F60667B53336A033979 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F513673DF846D6C83B92A7 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		18F5138A9426D007B0DECED6 /* PoyoCalculater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoyoCalculater.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		18F513A895DA8EA9ADF657B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		18F515DBB5A7E181E6E102CC /* PoyoCalculaterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoyoCalculaterApp.swift; sourceTree = "<group>"; };
-		18F51A80AEC75D83EB38F564 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		18F51EA2E0BCFF325BF319D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18F513673DF846D6C83B92A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18F519B91FF8A16E4D887366 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18F51B8EBF80CEC18BA30D34 /* Calculater_made_by_nokinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculater_made_by_nokinApp.swift; sourceTree = "<group>"; };
+		18F51BF0AA4ECE6319B49902 /* Calculater made by nokin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calculater made by nokin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F51C01E7200E68C5505407 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		18F51F3C83E6FEE8074F8054 /* Frameworks */ = {
+		18F51EFFCB3E923621C12BD8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,133 +32,109 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		18F51225C3E56724687906DE /* Products */ = {
+		18F510C949E3CEE1769CCC9F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18F5138A9426D007B0DECED6 /* PoyoCalculater.app */,
+				18F51BF0AA4ECE6319B49902 /* Calculater made by nokin.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		18F514AC8E21D9F5B24F072D /* Preview Content */ = {
+		18F510D7D7760C56AC668A7C = {
 			isa = PBXGroup;
 			children = (
-				18F513A895DA8EA9ADF657B7 /* Preview Assets.xcassets */,
+				18F510C949E3CEE1769CCC9F /* Products */,
+				18F5190E36F48B0E3055CD4F /* Calculater made by nokin */,
+			);
+			sourceTree = "<group>";
+		};
+		18F5190E36F48B0E3055CD4F /* Calculater made by nokin */ = {
+			isa = PBXGroup;
+			children = (
+				18F519B91FF8A16E4D887366 /* Assets.xcassets */,
+				18F51A65C330D650AD9D93E4 /* Preview Content */,
+				18F51B8EBF80CEC18BA30D34 /* Calculater_made_by_nokinApp.swift */,
+				18F51C01E7200E68C5505407 /* ContentView.swift */,
+			);
+			path = "Calculater made by nokin";
+			sourceTree = "<group>";
+		};
+		18F51A65C330D650AD9D93E4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				18F513673DF846D6C83B92A7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		18F51669C1AD7D718DACDA48 = {
-			isa = PBXGroup;
-			children = (
-				18F51225C3E56724687906DE /* Products */,
-				18F51BCEE463951EE4B8842E /* PoyoCalculater */,
-			);
-			sourceTree = "<group>";
-		};
-		18F51BCEE463951EE4B8842E /* PoyoCalculater */ = {
-			isa = PBXGroup;
-			children = (
-				18F51EA2E0BCFF325BF319D1 /* Assets.xcassets */,
-				18F514AC8E21D9F5B24F072D /* Preview Content */,
-				18F515DBB5A7E181E6E102CC /* PoyoCalculaterApp.swift */,
-				18F51A80AEC75D83EB38F564 /* ContentView.swift */,
-			);
-			path = PoyoCalculater;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		18F516E44F78482CB2FAD160 /* PoyoCalculater */ = {
+		18F512AC31FB90C3A1A69A4F /* Calculater made by nokin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18F51D99CDFC4CB0A3267C60 /* Build configuration list for PBXNativeTarget "PoyoCalculater" */;
+			buildConfigurationList = 18F51E4D080E449E6713D234 /* Build configuration list for PBXNativeTarget "Calculater made by nokin" */;
 			buildPhases = (
-				18F51954FA5584453077BEAA /* Sources */,
-				18F51F3C83E6FEE8074F8054 /* Frameworks */,
-				18F51CC57B47B2DFC488ED57 /* Resources */,
+				18F514CF6D72352ED3FA474B /* Sources */,
+				18F51EFFCB3E923621C12BD8 /* Frameworks */,
+				18F516378F07B65D55FAFE8E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PoyoCalculater;
-			productName = PoyoCalculater;
-			productReference = 18F5138A9426D007B0DECED6 /* PoyoCalculater.app */;
+			name = "Calculater made by nokin";
+			productName = "Calculater made by nokin";
+			productReference = 18F51BF0AA4ECE6319B49902 /* Calculater made by nokin.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		18F51AFF04104F020B47F0FE /* Project object */ = {
+		18F51D807893C6E9788C8BE9 /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = 18F510B54C2F05270BC7E989 /* Build configuration list for PBXProject "PoyoCalculater" */;
+			buildConfigurationList = 18F51791765C8558C8F1F884 /* Build configuration list for PBXProject "Calculater made by nokin" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 18F51669C1AD7D718DACDA48;
-			productRefGroup = 18F51225C3E56724687906DE /* Products */;
+			mainGroup = 18F510D7D7760C56AC668A7C;
+			productRefGroup = 18F510C949E3CEE1769CCC9F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18F516E44F78482CB2FAD160 /* PoyoCalculater */,
+				18F512AC31FB90C3A1A69A4F /* Calculater made by nokin */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		18F51CC57B47B2DFC488ED57 /* Resources */ = {
+		18F516378F07B65D55FAFE8E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18F5188E7C1A5CF129FBA662 /* Assets.xcassets in Resources */,
-				18F513A8148E992BCEC7EE7D /* Preview Assets.xcassets in Resources */,
+				18F519012EF7EB7E7B7DE947 /* Assets.xcassets in Resources */,
+				18F51F60667B53336A033979 /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		18F51954FA5584453077BEAA /* Sources */ = {
+		18F514CF6D72352ED3FA474B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18F5170062622DBF6470D54D /* PoyoCalculaterApp.swift in Sources */,
-				18F51AB48572A4B9127E0133 /* ContentView.swift in Sources */,
+				18F51CC14F01B0A4677D2A92 /* Calculater_made_by_nokinApp.swift in Sources */,
+				18F51495D54BB0AB3015AE28 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		18F5133DF5C7C77CE8960226 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"PoyoCalculater/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Nokin.PoyoCalculater;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		18F514DFBCE714FF83F279DB /* Release */ = {
+		18F510883F4B701571999774 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -212,7 +188,7 @@
 			};
 			name = Release;
 		};
-		18F51833C2490B76EFCBE6A9 /* Debug */ = {
+		18F51BCEA1DA2E3A5F6B5F66 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -272,13 +248,13 @@
 			};
 			name = Debug;
 		};
-		18F51A3077757D326F8124D9 /* Debug */ = {
+		18F51D850FE84A7EC1D40B2C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"PoyoCalculater/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Calculater made by nokin/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -288,7 +264,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Nokin.PoyoCalculater;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nokin.Calculater-made-by-nokin";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -296,27 +272,51 @@
 			};
 			name = Debug;
 		};
+		18F51F9E89417D8F85B56522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Calculater made by nokin/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nokin.Calculater-made-by-nokin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18F510B54C2F05270BC7E989 /* Build configuration list for PBXProject "PoyoCalculater" */ = {
+		18F51791765C8558C8F1F884 /* Build configuration list for PBXProject "Calculater made by nokin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18F51833C2490B76EFCBE6A9 /* Debug */,
-				18F514DFBCE714FF83F279DB /* Release */,
+				18F51BCEA1DA2E3A5F6B5F66 /* Debug */,
+				18F510883F4B701571999774 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18F51D99CDFC4CB0A3267C60 /* Build configuration list for PBXNativeTarget "PoyoCalculater" */ = {
+		18F51E4D080E449E6713D234 /* Build configuration list for PBXNativeTarget "Calculater made by nokin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18F51A3077757D326F8124D9 /* Debug */,
-				18F5133DF5C7C77CE8960226 /* Release */,
+				18F51D850FE84A7EC1D40B2C /* Debug */,
+				18F51F9E89417D8F85B56522 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 18F51AFF04104F020B47F0FE /* Project object */;
+	rootObject = 18F51D807893C6E9788C8BE9 /* Project object */;
 }

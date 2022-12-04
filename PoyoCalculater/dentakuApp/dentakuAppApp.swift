@@ -1,15 +1,14 @@
 //
-//  PoyoCalculaterApp.swift
-//  PoyoCalculater
+//  dentakuAppApp.swift
+//  dentakuApp
 //
-//  Created by geo on 2022/12/04.
-//
+//  Created by Uske on 2021/11/07.
 //
 
 import SwiftUI
 
 @main
-struct PoyoCalculaterApp: App {
+struct dentakuAppApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

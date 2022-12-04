@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  PoyoCalculater
+//  Calculater made by nokin
 //
 //  Created by geo on 2022/12/04.
 //

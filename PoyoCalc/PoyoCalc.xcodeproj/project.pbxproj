@@ -1,0 +1,103 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		18F5116AAB33820ED04347D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F51B38D03F69E2D068BF7E /* dentakuApp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7C404F2B2737D58100F5732C;
+			remoteInfo = dentakuApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18F51B38D03F69E2D068BF7E /* dentakuApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = dentakuApp.xcodeproj; path = PoyoCalculater/dentakuApp.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		18F513AABD353329975FDE57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18F51CCEE4A2F337BEE28974 /* dentakuApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18F51E41B37E6EC9F22EA009 = {
+			isa = PBXGroup;
+			children = (
+				18F51B38D03F69E2D068BF7E /* dentakuApp.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		18F51655E6F6694453DB9167 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 18F51B72775B6047216615C4 /* Build configuration list for PBXProject "PoyoCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18F51E41B37E6EC9F22EA009;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 18F513AABD353329975FDE57 /* Products */;
+					ProjectRef = 18F51B38D03F69E2D068BF7E /* dentakuApp.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		18F51CCEE4A2F337BEE28974 /* dentakuApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = dentakuApp.app;
+			remoteRef = 18F5116AAB33820ED04347D6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin XCBuildConfiguration section */
+		18F51A79800B439614E6520D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		18F51FD253C91B529F399A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18F51B72775B6047216615C4 /* Build configuration list for PBXProject "PoyoCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F51A79800B439614E6520D /* Debug */,
+				18F51FD253C91B529F399A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18F51655E6F6694453DB9167 /* Project object */;
+}
